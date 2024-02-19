@@ -26,8 +26,16 @@ public class Main {
         StarG g = new StarG();
         StarH h = new StarH();
         StarI i = new StarI();
+        StarJ j = new StarJ();
+        StarK k = new StarK();
+        StarL l = new StarL();
+        StarM m = new StarM();
         StarN n = new StarN();
+        StarO o = new StarO();
+        StarP p = new StarP();
+        StarQ q = new StarQ();
         StarR r = new StarR();
+        StarS s = new StarS();
         String finallString[][] = new String[6][0];
         ArrangeAlpha arng = new ArrangeAlpha();
         int count = 0;
@@ -60,11 +68,35 @@ public class Main {
             } else if (letter[count] == 'I') {
                 finallString = arng.arrange(finallString, i.i);
                 count++;
+            } else if (letter[count] == 'J') {
+                finallString = arng.arrange(finallString, j.j);
+                count++;
+            } else if (letter[count] == 'K') {
+                finallString = arng.arrange(finallString, k.k);
+                count++;
+            } else if (letter[count] == 'L') {
+                finallString = arng.arrange(finallString, l.l);
+                count++;
+            } else if (letter[count] == 'M') {
+                finallString = arng.arrange(finallString, m.m);
+                count++;
             } else if (letter[count] == 'N') {
                 finallString = arng.arrange(finallString, n.n);
                 count++;
+            } else if (letter[count] == 'O') {
+                finallString = arng.arrange(finallString, o.o);
+                count++;
+            } else if (letter[count] == 'P') {
+                finallString = arng.arrange(finallString, p.p);
+                count++;
+            } else if (letter[count] == 'Q') {
+                finallString = arng.arrange(finallString, q.q);
+                count++;
             } else if (letter[count] == 'R') {
                 finallString = arng.arrange(finallString, r.r);
+                count++;
+            } else if (letter[count] == 'S') {
+                finallString = arng.arrange(finallString, s.s);
                 count++;
             } else {
                 System.out.println("You Are Dumb Enter Charecter In B/W A-Z.");
