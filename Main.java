@@ -42,6 +42,7 @@ public class Main {
         StarW w = new StarW();
         StarX x = new StarX();
         StarY y = new StarY();
+        StarZ z = new StarZ();
         String finallString[][] = new String[6][0];
         ArrangeAlpha arng = new ArrangeAlpha();
         int count = 0;
@@ -121,6 +122,9 @@ public class Main {
                 count++;
             } else if (letter[count] == 'Y') {
                 finallString = arng.arrange(finallString, y.y);
+                count++;
+            } else if (letter[count] == 'Z') {
+                finallString = arng.arrange(finallString, z.z);
                 count++;
             } else {
                 System.out.println("You Are Dumb Enter Charecter In B/W A-Z.");
