@@ -36,6 +36,7 @@ public class Main {
         StarQ q = new StarQ();
         StarR r = new StarR();
         StarS s = new StarS();
+        StarT t = new StarT();
         String finallString[][] = new String[6][0];
         ArrangeAlpha arng = new ArrangeAlpha();
         int count = 0;
@@ -97,6 +98,9 @@ public class Main {
                 count++;
             } else if (letter[count] == 'S') {
                 finallString = arng.arrange(finallString, s.s);
+                count++;
+            } else if (letter[count] == 'T') {
+                finallString = arng.arrange(finallString, t.t);
                 count++;
             } else {
                 System.out.println("You Are Dumb Enter Charecter In B/W A-Z.");
