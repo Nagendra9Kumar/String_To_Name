@@ -25,6 +25,7 @@ public class Main {
         StarF f = new StarF();
         StarG g = new StarG();
         StarH h = new StarH();
+        StarI i = new StarI();
         StarN n = new StarN();
         StarR r = new StarR();
         String finallString[][] = new String[6][0];
@@ -55,6 +56,9 @@ public class Main {
                 count++;
             } else if (letter[count] == 'H') {
                 finallString = arng.arrange(finallString, h.h);
+                count++;
+            } else if (letter[count] == 'I') {
+                finallString = arng.arrange(finallString, i.i);
                 count++;
             } else if (letter[count] == 'N') {
                 finallString = arng.arrange(finallString, n.n);
