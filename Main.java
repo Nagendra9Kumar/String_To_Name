@@ -12,7 +12,7 @@ public class Main {
         char letter[] = new char[str.length()];
         for (int i = 0; i < str.length(); i++) {
             letter[i] = str.charAt(i);
-            System.out.println(letter[i]);
+            System.out.println(letter.length);
         }
         // object of print class to print 2d arrays with print() method
         Print print = new Print();
@@ -23,19 +23,12 @@ public class Main {
         StarG g = new StarG();
         StarN n = new StarN();
         StarR r = new StarR();
-        String finallString[][] = new String[6][letter.length * 6];
-        // print.print(finallString);
-        // print.print(a.a);
-        // print.print(d.d);
-        // print.print(e.e);
-        // print.print(g.g);
-        // rtr print.print(n.n);
-        // print.print(r.r);
+        String finallString[][] = new String[6][0];
         ArrangeAlpha arng = new ArrangeAlpha();
         int count = 0;
         while (count < letter.length) {
             if (letter[count] == 'A') {
-                System.out.println("yes");
+                // System.out.println("yes");
                 finallString = arng.arrange(finallString, a.a);
                 count++;
             } else if (letter[count] == 'D') {
