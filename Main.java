@@ -37,6 +37,11 @@ public class Main {
         StarR r = new StarR();
         StarS s = new StarS();
         StarT t = new StarT();
+        StarU u = new StarU();
+        StarV v = new StarV();
+        StarW w = new StarW();
+        StarX x = new StarX();
+        StarY y = new StarY();
         String finallString[][] = new String[6][0];
         ArrangeAlpha arng = new ArrangeAlpha();
         int count = 0;
@@ -101,6 +106,21 @@ public class Main {
                 count++;
             } else if (letter[count] == 'T') {
                 finallString = arng.arrange(finallString, t.t);
+                count++;
+            } else if (letter[count] == 'U') {
+                finallString = arng.arrange(finallString, u.u);
+                count++;
+            } else if (letter[count] == 'V') {
+                finallString = arng.arrange(finallString, v.v);
+                count++;
+            } else if (letter[count] == 'W') {
+                finallString = arng.arrange(finallString, w.w);
+                count++;
+            } else if (letter[count] == 'X') {
+                finallString = arng.arrange(finallString, x.x);
+                count++;
+            } else if (letter[count] == 'Y') {
+                finallString = arng.arrange(finallString, y.y);
                 count++;
             } else {
                 System.out.println("You Are Dumb Enter Charecter In B/W A-Z.");
